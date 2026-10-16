@@ -19,7 +19,7 @@ const Registro = () => {
         }
 
         try {
-            const response = await fetch('http://localhost:5000/api/registro', {
+            const response = await fetch('https://mi-tiendita-backend.onrender.com](https://mi-tiendita-backend.onrender.com', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ nombre, correo, password, aceptoAviso })

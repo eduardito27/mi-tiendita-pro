@@ -76,7 +76,7 @@ const Dashboard = () => {
         };
 
         try {
-            const response = await fetch('http://localhost:5000/api/productos', {
+            const response = await fetch('https://mi-tiendita-backend.onrender.com](https://mi-tiendita-backend.onrender.com', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(nuevo)
